@@ -4,8 +4,6 @@
 
 ---
 
-Most students will be on Macs (for Windows/Ubuntu, see the appropriate Readmes!). This set of instructions is meant to guide the Installfest process.
-
 Please check your OS X version before beginning. (Click the Apple menu and choose *About this Mac*.) This set of steps should work for Mavericks or Yosemite; if you're on another version, let an instructor know.
 
 
