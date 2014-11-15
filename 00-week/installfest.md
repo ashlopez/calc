@@ -1,13 +1,5 @@
 #WDI Installfest (Mac)
 
-**Note for Ubuntu**
-> Read the excellent install guide for Ubuntu over at https://gorails.com/setup/ubuntu/14.10
-
-**Version note:** Ruby 2.1.3 and Rails 4.1.7 are the standard for our class. If you already have another version installed, we'll either be advancing or rolling you back for consistency.
-
-
----
-
 Please check your OS X version before beginning. (Click the Apple menu and choose *About this Mac*.) This set of steps should work for Mavericks or Yosemite; if you're on another version, let an instructor know.
 
 
@@ -26,7 +18,7 @@ Find an instructor for support if you have any errors!
 
 In Terminal:
 
-`ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 
 ###Brew Doctor
