@@ -151,7 +151,7 @@ then
 `git config --global credential.helper cache`
 
 
-##Node
+##node.js
 
 Download the [Macintosh Installer](http://nodejs.org/dist/v0.10.33/node-v0.10.33.pkg). Run the installer using the defaults.
 
