@@ -134,7 +134,7 @@ Install the image processing library ImageMagick (used with Paperclip later on):
 
 In Terminal:
 
-`git config --global user.name "YOUR-USERNAME"`
+`git config --global user.name "Your Name"`
 
 then
 
