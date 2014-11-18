@@ -13,26 +13,9 @@
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 
-		<script src="js/main.js" async></script>
-		
-		<script>
-			function startup() {
-				var nameInElement = document.getElementById('nameIn');
-
-				nameInElement.addEventListener('keyup', function(e) {
-					var nameOutElement = document.getElementById('nameOut');
-					nameOutElement.innerHTML = nameInElement.value;
-				});
-			}
-
-			window.onload = startup;
-		</script>
+		<script src="js/main.js"></script>
 	</head>
 
 	<body>
-		<input id="nameIn" type="text" value="">
-		<div>
-			<h1 id="nameOut"></h1>
-		</div>
 	</body>
 </html>
