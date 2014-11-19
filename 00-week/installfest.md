@@ -134,11 +134,11 @@ Install the image processing library ImageMagick (used with Paperclip later on):
 
 In Terminal:
 
-`git config --global user.name "YOUR-USERNAME"`
+`git config --global user.name "Your Name"`
 
-then
+then, using the same email you used to sign up with Github,
 
-`git config --global user.email YOUR-EMAIL-ADDRESS`
+`git config --global user.email youremail@whatever.com`
 
 then
 
