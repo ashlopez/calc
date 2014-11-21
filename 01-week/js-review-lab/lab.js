@@ -14,8 +14,10 @@
  ************************/
 
 /* 1. Declare variables that are examples of the
-     five primitive types. Show two different
-     ways to make a variable undefined! */
+     five primitive types. For example, assign
+     true to booleanValue, since true is a boolean
+     value. Show two different ways to make a 
+     variable undefined! */
 
 var booleanValue    = null;
 var numberValue     = null;
@@ -86,24 +88,24 @@ console.log(null);
  ************************/
 
 /* Fix the below while loop so that the user
-     is continually asked whether he or she is done, 
-     until the string "n" is entered. 
+     is continually asked whether he or she is done. 
+     Continue looping while the user enters "no".
      Remember you can place console.log statements
      inside loops to "see" the values change. */
 
-var isDone = "n";
+var isDone = "no";
 while (isDone === null) {
-	var isDone = prompt("Are you done?");
+	isDone = prompt("Are you done?");
 }
 
 
 /* Modify the solution to the above while loop
-     below. Now, continue looping if "n" OR "N"
+     below. Now, continue looping if "no" OR "No"
      is entered. */
 
-var isDone = "n";
+var isDone = "no";
 while (isDone === null) {
-	var isDone = prompt("Are you done?");
+	isDone = prompt("Are you done?");
 }
 
 
@@ -123,10 +125,10 @@ var theTarget = Math.round(100 * Math.random()) + 1;
      for a guess and informing whether the guess
      is too low or too high. */
 
-var theGuess = 0;
+var guess = 0;
 var theTarget = Math.round(100 * Math.random()) + 1;
 while (null) {
-	var guess = prompt("Make a guess!");
+	guess = prompt("Make a guess!");
 
 	if (null) {
 		alert("Too high!");
