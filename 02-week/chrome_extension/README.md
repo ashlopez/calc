@@ -9,16 +9,19 @@ In this folder is a modified sample extension taken from the [official samples](
 
 Each extension has a file, **manifest.json**, which specifies the extension's name, description, associated files, and permissions required. This file is written in JSON, a structured data format that uses the same syntax as a JavaScript object.
 
+We will use a JavaScript API called [*chrome.tabs*](https://developer.chrome.com/extensions/tabs).
 
-## Goals
+## Objectives
 
 - Understand how a Chrome extension works.
+
+- Understand how to select multiple HTML elements and assign events to them using a for loop.
 
 - Understand how JavaScript can be injected into a website to affect its DOM.
 
 - Use JavaScript events to add functionality to a Chrome extension.
 
-- Read and apply the chrome.tabs JavaScript API documentation.
+- Read and apply the [*chrome.tabs*](https://developer.chrome.com/extensions/tabs) JavaScript API documentation.
 
 
 ## Challenges
@@ -36,9 +39,9 @@ The HTML and JS source code is annotated to show you where to insert code for ea
 
 - *Hint:* Add a single line of code to the loadSite() function. Use chrome.tabs.update, with the 'url' parameter.
 
-**3. Generalize the click handlers for the feature buttons.**
+**3. Add click handlers to all of the buttons by using a CSS selector and for loop.**
 
-- *Hint:* Use the #color-list code as a reference to loop through the feature buttons. Use the provided first button's onclick code as a model to call the appropriate click handler for each button.
+- *Hint:* Use the #color-list code as a reference to loop through the feature buttons. First, write a CSS selector which selects the buttons. Use it with document.querySelectorAll. Next, use a for loop to iterate through the buttons, adding an onclick handler to each. Use the provided first button's onclick code as a model to call the appropriate click handler for each button.
 
 **4. Add a highlight button that highlights the text in all paragraph tags.**
 
