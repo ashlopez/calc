@@ -1,0 +1,18 @@
+{
+  "name": "WDI - Chrome Extension Playground!",
+  "description": "Inject JS, play with chrome.tabs",
+  "version": "0.1",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": {
+    "16": "ga-logo-16.png",
+    "48": "ga-logo-48.png"
+  },
+  "browser_action": {
+      "default_title": "Open the menu!",
+      "default_icon": "ga-logo-16.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
