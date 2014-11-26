@@ -1,0 +1,11 @@
+HOW THE INTERNET WORKS
+RESOURCES
+
+"High Performance Browser Networking: What Every Web Developer Should Know About Networking and Browser Performance", by Ilya Grigorik
+http://www.amazon.com/High-Performance-Browser-Networking-performance/dp/1449344763
+
+CodeSchool - Discover DevTools
+https://www.codeschool.com/courses/discover-devtools
+
+Wikipedia - History of the Internet
+http://en.wikipedia.org/wiki/History_of_the_Internet
